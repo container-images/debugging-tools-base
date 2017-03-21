@@ -32,7 +32,7 @@ docker run -it --name NAME --privileged --ipc=host --net=host --pid=host -e HOST
 Write a Dockerfile:
 
 ```bash
-FROM modularitycontainer/debugging-tool-base:latest
+FROM modularitycontainers/debugging-tool-base:latest
 
 MAINTAINTER YOUR_NAME <email@adress.com>
 
